@@ -128,6 +128,7 @@ public class NumberTriangle {
 
             if (prev != null) {
                 for (int i = 0; i < prev.length; i++) {
+                    assert prev[i] != null;
                     prev[i].setLeft(curr[i]);
                     prev[i].setRight(curr[i + 1]);
                 }
