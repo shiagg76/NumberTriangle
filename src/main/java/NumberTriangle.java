@@ -139,7 +139,6 @@ public class NumberTriangle {
             // read the next line
             line = br.readLine();
         }
-
         br.close();
         return top;
     }
